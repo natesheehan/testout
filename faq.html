@@ -1,245 +1,245 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
-<head>
-  <meta charset="utf-8">
-  <meta name="generator" content="pandoc">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <meta name="author" content="Robin Lovelace and Joey Talbot, ITS Leeds">
-  <title>Frequently asked questions</title>
-  <style>
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
-  </style>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
-  <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
-// be compatible with the behavior of Pandoc < 2.8).
-document.addEventListener('DOMContentLoaded', function(e) {
-  var hs = document.querySelectorAll("div.section[class*='level'] > :first-child");
-  var i, h, a;
-  for (i = 0; i < hs.length; i++) {
-    h = hs[i];
-    if (!/^h[1-6]$/i.test(h.tagName)) continue;  // it should be a header h1-h6
-    a = h.attributes;
-    while (a.length > 0) h.removeAttribute(a[0].name);
-  }
-});
-</script>
-  <style type="text/css">html{font-size:62.5%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif}body{font-size:1.8rem;line-height:1.618;max-width:38em;margin:auto;color:#4a4a4a;background-color:#f9f9f9;padding:13px}@media (max-width: 684px){body{font-size:1.53rem}}@media (max-width: 382px){body{font-size:1.35rem}}h1,h2,h3,h4,h5,h6{line-height:1.1;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;font-weight:700;margin-top:3rem;margin-bottom:1.5rem;overflow-wrap:break-word;word-wrap:break-word;-ms-word-break:break-all;word-break:break-word;-ms-hyphens:auto;-moz-hyphens:auto;-webkit-hyphens:auto;hyphens:auto}h1{font-size:2.35em}h2{font-size:2.00em}h3{font-size:1.75em}h4{font-size:1.5em}h5{font-size:1.25em}h6{font-size:1em}p{margin-top:0px;margin-bottom:2.5rem}small,sub,sup{font-size:75%}hr{border-color:#2c8898}a{text-decoration:none;color:#2c8898}a:hover{color:#982c61;border-bottom:2px solid #4a4a4a}ul{padding-left:1.4em;margin-top:0px;margin-bottom:2.5rem}li{margin-bottom:0.4em}blockquote{font-style:italic;margin-left:1.5em;padding-left:1em;border-left:3px solid #2c8898}img{height:auto;max-width:100%;margin-top:0px;margin-bottom:2.5rem}pre{background-color:#f1f1f1;display:block;padding:1em;overflow-x:auto;margin-top:0px;margin-bottom:2.5rem}code{font-size:0.9em;padding:0 0.5em;background-color:#f1f1f1;white-space:pre-wrap}pre>code{padding:0;background-color:transparent;white-space:pre}table{text-align:justify;width:100%;border-collapse:collapse}td,th{padding:0.5em;border-bottom:1px solid #f1f1f1}input,textarea{border:1px solid #4a4a4a}input:focus,textarea:focus{border:1px solid #2c8898}textarea{width:100%}.button,button,input[type="submit"],input[type="reset"],input[type="button"]{display:inline-block;padding:5px 10px;text-align:center;text-decoration:none;white-space:nowrap;background-color:#2c8898;color:#f9f9f9;border-radius:1px;border:1px solid #2c8898;cursor:pointer;box-sizing:border-box}.button[disabled],button[disabled],input[type="submit"][disabled],input[type="reset"][disabled],input[type="button"][disabled]{cursor:default;opacity:.5}.button:focus,.button:hover,button:focus,button:hover,input[type="submit"]:focus,input[type="submit"]:hover,input[type="reset"]:focus,input[type="reset"]:hover,input[type="button"]:focus,input[type="button"]:hover{background-color:#982c61;border-color:#982c61;color:#f9f9f9;outline:0}textarea,select,input[type]{color:#4a4a4a;padding:6px 10px;margin-bottom:10px;background-color:#f1f1f1;border:1px solid #f1f1f1;border-radius:4px;box-shadow:none;box-sizing:border-box}textarea:focus,select:focus,input[type]:focus{border:1px solid #2c8898;outline:0}input[type="checkbox"]:focus{outline:1px dotted #2c8898}label,legend,fieldset{display:block;margin-bottom:.5rem;font-weight:600}div.sourceCode{overflow:visible}pre{border:solid #aaa 1px;padding:8px}pre>code{white-space:pre;overflow:visible;background-color:unset;padding:0}pre.numberSource{margin:0;padding-left:0}pre,pre.sourceCode{overflow-x:auto}pre.sourceCode.numberSource{overflow-x:visible}pre.sourceCode.numberSource>code{white-space:pre-wrap}pre.sourceCode.numberSource>code>span{left:8px;text-indent:-4.6em}.chunk-summary{text-align:right}.chunk-summary+pre,.chunk-summary+div.sourceCode{margin-top:2px}nav[role="doc-toc"]>ul{border:.0625rem solid #444;border-radius:4px;margin:5px;padding:5px}nav[role="doc-toc"] ul{list-style-type:none;padding-inline-start:1rem}nav[role="doc-toc"] ul li{padding:0}nav[role="doc-toc"] ul ul{margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0}nav[role="doc-toc"] code{background-color:unset;color:unset}a.button:hover{border-width:1px}@media screen and (max-width: 960px){header,nav,article{padding:0 3rem}}nav[role="doc-toc"]{font-size:0.9em;border:none}nav[role="doc-toc"]>ul{box-sizing:border-box}nav[role="doc-toc"] ul{margin:0}nav[role="doc-toc"] li,nav[role="doc-toc"] a{margin:0;padding:0}.tooltip{position:relative;display:inline-block}.tooltip:before,.tooltip:after{position:absolute;opacity:0;clip:rect(0 0 0 0);-webkit-clip-path:inset(100%);clip-path:inset(100%);transition:all 0.3s;z-index:1010;left:50%}.tooltip:not(.bottom):before,.tooltip:not(.bottom):after{bottom:75%}.tooltip.bottom:before,.tooltip.bottom:after{top:75%}.tooltip:hover:before,.tooltip:hover:after,.tooltip:focus:before,.tooltip:focus:after{opacity:1;clip:auto;-webkit-clip-path:inset(0%);clip-path:inset(0%)}.tooltip:before{content:'';background:transparent;border:0.5rem solid transparent;left:calc(50% - 0.5rem)}.tooltip:not(.bottom):before{border-top-color:#212121}.tooltip.bottom:before{border-bottom-color:#212121}.tooltip:after{content:attr(aria-label);color:#fafafa;background:#212121;border-radius:0.125rem;padding:0.5rem;white-space:nowrap;transform:translateX(-50%)}.tooltip:not(.bottom):after{margin-bottom:1rem}.tooltip.bottom:after{margin-top:1rem}:root{--toc-width: 300px}@media screen and (min-width: 960px){body{max-width:100vw;margin:0;padding:0}main{display:grid;grid-template-columns:var(--toc-width) 1fr;grid-template-rows:auto auto}nav[role="doc-toc"]{grid-row:1 / -1;grid-column:1 / 2;border:none;margin:0;width:var(--toc-width)}nav[role="doc-toc"]>ul{padding-top:0;padding-bottom:0;position:sticky;max-height:100vh;overflow-y:auto;top:0;border:none}nav[role="doc-toc"]>ul>li:first-child{padding-top:0.5rem}}@media screen and (min-width: 960px) and (max-width: 1260px){main{width:calc(100vw - 2rem)}header,article{width:calc(100vw - var(--toc-width) - 6rem);padding:0 0 0 4rem}}@media screen and (min-width: 1260px){main{width:calc(1260px - 2rem);margin:0 calc(50vw - 480px) 0 auto}header,article{width:calc(960px - 6rem);padding:0 0 0 4rem}}
-</style>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" data-external="1"></head>
-<body>
-<main>
-<header id="title-block-header">
-<h1 class="title">Frequently asked questions</h1>
-<p class="author">Robin Lovelace and Joey Talbot, ITS Leeds</p>
-<p class="date">Last updated 2022-07-01</p>
-</header>
-<nav id="TOC" role="doc-toc">
-<ul>
-<li><a href="#what-does-cruse-stand-for" id="toc-what-does-cruse-stand-for">What does CRUSE stand for?</a></li>
-<li><a href="#what-is-the-purpose-of-this-tool" id="toc-what-is-the-purpose-of-this-tool">What is the purpose of this
-tool?</a></li>
-<li><a href="#what-can-the-tool-be-used-for" id="toc-what-can-the-tool-be-used-for">What can the tool be used
-for?</a></li>
-<li><a href="#how-can-i-access-the-tool" id="toc-how-can-i-access-the-tool">How can I access the tool?</a></li>
-<li><a href="#which-trip-purposes-are-included-in-the-tool" id="toc-which-trip-purposes-are-included-in-the-tool">Which trip
-purposes are included in the tool?</a></li>
-<li><a href="#what-data-does-the-tool-use" id="toc-what-data-does-the-tool-use">What data does the tool
-use?</a></li>
-<li><a href="#how-are-the-number-of-trips-determined-for-each-trip-purpose" id="toc-how-are-the-number-of-trips-determined-for-each-trip-purpose">How
-are the number of trips determined for each trip purpose?</a></li>
-<li><a href="#how-are-the-scenarios-defined" id="toc-how-are-the-scenarios-defined">How are the scenarios
-defined?</a></li>
-<li><a href="#what-is-the-definition-of-cycle-friendliness" id="toc-what-is-the-definition-of-cycle-friendliness">What is the
-definition of &#x2018;Cycle friendliness&#x2019;?</a></li>
-<li><a href="#how-are-journeys-routed" id="toc-how-are-journeys-routed">How are journeys routed?</a></li>
-</ul>
-</nav>
-<article>
-<section id="what-does-cruse-stand-for" class="level3">
-<h3>What does CRUSE stand for?</h3>
-<p>CRUSE stands for the Cycle Route Uptake and Scenarios Estimation
-tool.</p>
-</section>
-<section id="what-is-the-purpose-of-this-tool" class="level3">
-<h3>What is the purpose of this tool?</h3>
-<p>The CRUSE tool will provide a web application for strategic cycle
-network planning across the Republic of Ireland. This involves detailed
-route-level visualisations of cycle journeys and a range of cycling
-uptake scenarios, using methods based on the <a href="https://www.pct.bike/">Propensity to Cycle Tool</a> for England
-and Wales.</p>
-</section>
-<section id="what-can-the-tool-be-used-for" class="level3">
-<h3>What can the tool be used for?</h3>
-<p>The tool can be used to visualise and assess current patterns of
-cycling and how these could change in future, under scenarios of
-increased cycling uptake in Ireland. Together with local knowledge, this
-may provide supporting evidence to guide decisions such as where to
-install new cycle infrastructure, or where road safety measures may be
-required.</p>
-</section>
-<section id="how-can-i-access-the-tool" class="level3">
-<h3>How can I access the tool?</h3>
-<p>This is a free and open source tool, available for everyone to use.
-<!-- The user-friendly interface can be accessed at xx. --></p>
-</section>
-<section id="which-trip-purposes-are-included-in-the-tool" class="level3">
-<h3>Which trip purposes are included in the tool?</h3>
-<p>So far we have included the following trip purposes:</p>
-<ul>
-<li>commute trips</li>
-<li>travel to primary school</li>
-<li>travel to secondary school</li>
-<li>travel to tertiary education</li>
-<li>social trips</li>
-<li>personal trips</li>
-<li>shopping trips</li>
-</ul>
-<p>We do not include business trips (non-commute work-related
-journeys)</p>
-</section>
-<section id="what-data-does-the-tool-use" class="level3">
-<h3>What data does the tool use?</h3>
-<p>Travel to work and school is based on Central Statistics Office <a href="https://www.cso.ie/en/census/census2016reports/powscar/">POWSCAR
-origin-destination data</a> from the 2016 Census. We use Electoral
-Divisions as the geographical zones between which journeys are
-defined.</p>
-<p>We also include cycle journeys for other purposes including travel to
-public transport, leisure, shopping and touring journeys. Journey
-purpose data derives from from the <a href="https://www.nationaltransport.ie/wp-content/uploads/2020/09/National_Household_Travel_Survey_2017_Report_-_December_2018.pdf">NTA
-National Household Travel Survey</a>. Destination locations are assigned
-using <a href="https://www.geodirectory.ie/">Geodirectory</a>.</p>
-</section>
-<section id="how-are-the-number-of-trips-determined-for-each-trip-purpose" class="level3">
-<h3>How are the number of trips determined for each trip purpose?</h3>
-<p>The POWSCAR data on travel to work and school represents the most
-detailed travel dataset used in the CRUSE Tool, containing accurate data
-on the number of trips to work, primary school, secondary school and
-tertiary education carried out by all modes of transport on a typical
-weekday. These trips from home to work or school are recorded in one
-direction only in the POWSCAR data, and we have followed this in the
-CRUSE Tool. This can be seen as representing morning peak flow. To
-include return journeys as part of daily trip totals, the POWSCAR flows
-can simply be doubled (and the same can be done for non-POWSCAR
-flows).</p>
-<p>For non-POWSCAR trip purposes (including social, personal and
-shopping trips), we use the POWSCAR dataset as a benchmark. According to
-the NHTS 2017 Survey, work, business and education represent a combined
-total of 51% of all trips. Of these, business trips are not included in
-POWSCAR, and are estimated to represent around 5% of total trips (AECOM
-reference). Therefore, we assume that the POWSCAR data should represent
-46% of total trips. We use this figure to calculate the total number of
-daily trips nationwide. The total number of trips for each non-POWSCAR
-trip purpose is calculated as a proportion of this national total. Based
-on this overall total, the number of non-POWSCAR trips originating from
-each Electoral Division is generated according to the population (aged 4
-and above) of the Electoral Division.</p>
-<p>Having obtained the origins for non-POWSCAR trips, we identify
-potential destinations using the Geodirectory dataset, assigning the
-point data to 500 m grid cells. We use a spatial interaction model to
-assign trips to these destinations.</p>
-<p>There is a small difference in the way the trip purpose totals are
-calculated, between the POWSCAR and non-POWSCAR purposes. The POWSCAR
-purposes are represented as the mean daily number of one-way trips taken
-on a typical weekday, while the non-POWSCAR purposes are represented as
-the mean daily number of one-way trips averaged across the entire week,
-since the NHTS survey accounts for trips taken on all days of the
-week.</p>
-<!-- Add table -->
-</section>
-<section id="how-are-the-scenarios-defined" class="level3">
-<h3>How are the scenarios defined?</h3>
-<p>We use a number of scenarios to represent different levels of
-potential cycling uptake. They are based on existing travel data using
-defined origin and destination points. These origins and destinations
-are assumed to remain the same.</p>
-<p>In all scenarios apart from the baseline scenario, modal shares are
-altered to model potential future increases in cycling uptake and/or
-reductions in car driving. Scenarios include:</p>
-<p><em>Baseline:</em></p>
-<p>The baseline scenario uses existing modal shares for all
-journeys.</p>
-<p><em>Near Market:</em></p>
-<p>This scenario will be based on current cycling levels in Dublin. It
-thus gives an achievable level of ambition, showing what could happen if
-cycling uptake reaches Dublin levels (while taking account of journey
-length and hilliness) across the whole country. Training on Dublin data
-should allow cycling to reach around 8-10% mode share for trips in urban
-areas.</p>
-<p><em>Decarbonise:</em></p>
-<p>This scenario is loosely based on the Irish Government&#x2019;s <a href="https://www.gov.ie/en/publication/6223e-climate-action-plan-2021/">Climate
-Action Plan 2021</a>, which contains policies for action to achieve a
-51% reduction in overall greenhouse gas emissions by 2030, on a path
-towards net-zero by 2050. For transport, this includes 500,000 extra
-walking, cycling and public transport journeys per day by 2030. In terms
-of car travel, the target is to &#x201C;Increas[e] the proportion of kilometres
-driven by passenger electric cars to between 40 and 45% by 2030, in
-addition to a reduction of 10% in kilometres driven by the remaining
-internal combustion engine cars.&#x201D; This equates to a 5.5 - 6% reduction
-in total car km driven.</p>
-<p>To model this decrease in car driver km, cycling uptake increases in
-line with the Go Dutch scenario. However, we only model shift from
-driving to cycling. There is no shift from other modes of transport to
-cycling.</p>
-<p><em>Demand Reduction:</em></p>
-<p>This scenario models a 30% reduction in car driver km. To enable this
-major shift, we assume an overall 10% demand reduction for travel across
-all modes. On top of this is a 20% increase in public transport modal
-share, across the origin-destination pairs where some journeys are
-already made by public transport. Added to this is modal shift from car
-driving to cycling as following the ebike cycle uptake scenario.</p>
-<p><em>Go Dutch:</em></p>
-<p>In this scenario cycling reaches levels equivalent to those found in
-the Netherlands, taking account of the effects of route hilliness
-(measured as mean gradient) and route distance. Journeys can shift from
-any other mode to cycling.</p>
-<p><em>Ebike:</em></p>
-<p>The ebike scenario takes Go Dutch cycling uptake, and adds onto this
-the impact of increased ebike usage, which allows for longer cycle
-journeys.</p>
-</section>
-<section id="what-is-the-definition-of-cycle-friendliness" class="level3">
-<h3>What is the definition of &#x2018;Cycle friendliness&#x2019;?</h3>
-<p>Cycle friendliness is a subjective measure representing the quality
-of a route segment (a section of road or path) for cycling. It takes
-into account a <a href="https://www.cyclestreets.net/api/v1/journey/">range of
-factors</a>, using data derived from OpenStreetMap. Factors that
-contribute to the cycle friendliness rating include (as appropriate)
-whether the cycleway is shared with motor vehicles or pedestrians, the
-type of road, presence of cycle infrastructure, speed limit, surface
-quality, cycle signage, any barriers or obstructions, path width and
-route legibility. See <a href="https://www.cyclestreets.net/help/journey/howitworks/">CycleStreets</a>
-for further information; in this link the term &#x2018;quietness&#x2019; is used for
-the same measure that we call &#x2018;cycle friendliness&#x2019;.</p>
-</section>
-<section id="how-are-journeys-routed" class="level3">
-<h3>How are journeys routed?</h3>
-<p>During the routing process, each journey is assigned to the road and
-cycle path network, from its point of origin to its destination. This
-aims to replicate the routes that cyclists might choose to take in real
-life.</p>
-<p>We use three different route types, each developed by <a href="https://www.cyclestreets.net">CycleStreets.net</a>, and labelled
-&#x2018;fastest&#x2019;, &#x2018;quietest&#x2019; and &#x2018;balanced.&#x2019;</p>
-<p><em>Fastest routes:</em></p>
-<p>These are generated based on the fastest possible journey time from
-origin to destination. The calculation of these routes takes into
-account the impact of hills on journey times, but it does not take into
-account the cycle friendliness of the roads. Therefore the routes may
-follow busy main roads.</p>
-<p><em>Quietest routes:</em></p>
-<p>These are generated with the aim of maximising cycle friendliness
-along the chosen route. However, they may still sometimes follow roads
-that are not cycle friendly, if there is no other alternative nearby.
-These are shown as the default in the CRUSE web tool.</p>
-<p><em>Balanced routes:</em></p>
-<p>These routes aim to balance speed and cycle friendliness.</p>
-</section>
-</article>
-</main>
-</body>
-</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="author" content="Robin Lovelace and Joey Talbot, ITS Leeds">
+  <title>Frequently asked questions</title>
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
+// be compatible with the behavior of Pandoc < 2.8).
+document.addEventListener('DOMContentLoaded', function(e) {
+  var hs = document.querySelectorAll("div.section[class*='level'] > :first-child");
+  var i, h, a;
+  for (i = 0; i < hs.length; i++) {
+    h = hs[i];
+    if (!/^h[1-6]$/i.test(h.tagName)) continue;  // it should be a header h1-h6
+    a = h.attributes;
+    while (a.length > 0) h.removeAttribute(a[0].name);
+  }
+});
+</script>
+  <style type="text/css">html{font-size:62.5%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif}body{font-size:1.8rem;line-height:1.618;max-width:38em;margin:auto;color:#4a4a4a;background-color:#f9f9f9;padding:13px}@media (max-width: 684px){body{font-size:1.53rem}}@media (max-width: 382px){body{font-size:1.35rem}}h1,h2,h3,h4,h5,h6{line-height:1.1;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;font-weight:700;margin-top:3rem;margin-bottom:1.5rem;overflow-wrap:break-word;word-wrap:break-word;-ms-word-break:break-all;word-break:break-word;-ms-hyphens:auto;-moz-hyphens:auto;-webkit-hyphens:auto;hyphens:auto}h1{font-size:2.35em}h2{font-size:2.00em}h3{font-size:1.75em}h4{font-size:1.5em}h5{font-size:1.25em}h6{font-size:1em}p{margin-top:0px;margin-bottom:2.5rem}small,sub,sup{font-size:75%}hr{border-color:#2c8898}a{text-decoration:none;color:#2c8898}a:hover{color:#982c61;border-bottom:2px solid #4a4a4a}ul{padding-left:1.4em;margin-top:0px;margin-bottom:2.5rem}li{margin-bottom:0.4em}blockquote{font-style:italic;margin-left:1.5em;padding-left:1em;border-left:3px solid #2c8898}img{height:auto;max-width:100%;margin-top:0px;margin-bottom:2.5rem}pre{background-color:#f1f1f1;display:block;padding:1em;overflow-x:auto;margin-top:0px;margin-bottom:2.5rem}code{font-size:0.9em;padding:0 0.5em;background-color:#f1f1f1;white-space:pre-wrap}pre>code{padding:0;background-color:transparent;white-space:pre}table{text-align:justify;width:100%;border-collapse:collapse}td,th{padding:0.5em;border-bottom:1px solid #f1f1f1}input,textarea{border:1px solid #4a4a4a}input:focus,textarea:focus{border:1px solid #2c8898}textarea{width:100%}.button,button,input[type="submit"],input[type="reset"],input[type="button"]{display:inline-block;padding:5px 10px;text-align:center;text-decoration:none;white-space:nowrap;background-color:#2c8898;color:#f9f9f9;border-radius:1px;border:1px solid #2c8898;cursor:pointer;box-sizing:border-box}.button[disabled],button[disabled],input[type="submit"][disabled],input[type="reset"][disabled],input[type="button"][disabled]{cursor:default;opacity:.5}.button:focus,.button:hover,button:focus,button:hover,input[type="submit"]:focus,input[type="submit"]:hover,input[type="reset"]:focus,input[type="reset"]:hover,input[type="button"]:focus,input[type="button"]:hover{background-color:#982c61;border-color:#982c61;color:#f9f9f9;outline:0}textarea,select,input[type]{color:#4a4a4a;padding:6px 10px;margin-bottom:10px;background-color:#f1f1f1;border:1px solid #f1f1f1;border-radius:4px;box-shadow:none;box-sizing:border-box}textarea:focus,select:focus,input[type]:focus{border:1px solid #2c8898;outline:0}input[type="checkbox"]:focus{outline:1px dotted #2c8898}label,legend,fieldset{display:block;margin-bottom:.5rem;font-weight:600}div.sourceCode{overflow:visible}pre{border:solid #aaa 1px;padding:8px}pre>code{white-space:pre;overflow:visible;background-color:unset;padding:0}pre.numberSource{margin:0;padding-left:0}pre,pre.sourceCode{overflow-x:auto}pre.sourceCode.numberSource{overflow-x:visible}pre.sourceCode.numberSource>code{white-space:pre-wrap}pre.sourceCode.numberSource>code>span{left:8px;text-indent:-4.6em}.chunk-summary{text-align:right}.chunk-summary+pre,.chunk-summary+div.sourceCode{margin-top:2px}nav[role="doc-toc"]>ul{border:.0625rem solid #444;border-radius:4px;margin:5px;padding:5px}nav[role="doc-toc"] ul{list-style-type:none;padding-inline-start:1rem}nav[role="doc-toc"] ul li{padding:0}nav[role="doc-toc"] ul ul{margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0}nav[role="doc-toc"] code{background-color:unset;color:unset}a.button:hover{border-width:1px}@media screen and (max-width: 960px){header,nav,article{padding:0 3rem}}nav[role="doc-toc"]{font-size:0.9em;border:none}nav[role="doc-toc"]>ul{box-sizing:border-box}nav[role="doc-toc"] ul{margin:0}nav[role="doc-toc"] li,nav[role="doc-toc"] a{margin:0;padding:0}.tooltip{position:relative;display:inline-block}.tooltip:before,.tooltip:after{position:absolute;opacity:0;clip:rect(0 0 0 0);-webkit-clip-path:inset(100%);clip-path:inset(100%);transition:all 0.3s;z-index:1010;left:50%}.tooltip:not(.bottom):before,.tooltip:not(.bottom):after{bottom:75%}.tooltip.bottom:before,.tooltip.bottom:after{top:75%}.tooltip:hover:before,.tooltip:hover:after,.tooltip:focus:before,.tooltip:focus:after{opacity:1;clip:auto;-webkit-clip-path:inset(0%);clip-path:inset(0%)}.tooltip:before{content:'';background:transparent;border:0.5rem solid transparent;left:calc(50% - 0.5rem)}.tooltip:not(.bottom):before{border-top-color:#212121}.tooltip.bottom:before{border-bottom-color:#212121}.tooltip:after{content:attr(aria-label);color:#fafafa;background:#212121;border-radius:0.125rem;padding:0.5rem;white-space:nowrap;transform:translateX(-50%)}.tooltip:not(.bottom):after{margin-bottom:1rem}.tooltip.bottom:after{margin-top:1rem}:root{--toc-width: 300px}@media screen and (min-width: 960px){body{max-width:100vw;margin:0;padding:0}main{display:grid;grid-template-columns:var(--toc-width) 1fr;grid-template-rows:auto auto}nav[role="doc-toc"]{grid-row:1 / -1;grid-column:1 / 2;border:none;margin:0;width:var(--toc-width)}nav[role="doc-toc"]>ul{padding-top:0;padding-bottom:0;position:sticky;max-height:100vh;overflow-y:auto;top:0;border:none}nav[role="doc-toc"]>ul>li:first-child{padding-top:0.5rem}}@media screen and (min-width: 960px) and (max-width: 1260px){main{width:calc(100vw - 2rem)}header,article{width:calc(100vw - var(--toc-width) - 6rem);padding:0 0 0 4rem}}@media screen and (min-width: 1260px){main{width:calc(1260px - 2rem);margin:0 calc(50vw - 480px) 0 auto}header,article{width:calc(960px - 6rem);padding:0 0 0 4rem}}
+</style>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" data-external="1"></head>
+<body>
+<main>
+<header id="title-block-header">
+<h1 class="title">Frequently asked questions</h1>
+<p class="author">Robin Lovelace and Joey Talbot, ITS Leeds</p>
+<p class="date">Last updated 2022-07-04</p>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#what-does-cruse-stand-for" id="toc-what-does-cruse-stand-for">What does CRUSE stand for?</a></li>
+<li><a href="#what-is-the-purpose-of-this-tool" id="toc-what-is-the-purpose-of-this-tool">What is the purpose of this
+tool?</a></li>
+<li><a href="#what-can-the-tool-be-used-for" id="toc-what-can-the-tool-be-used-for">What can the tool be used
+for?</a></li>
+<li><a href="#how-can-i-access-the-tool" id="toc-how-can-i-access-the-tool">How can I access the tool?</a></li>
+<li><a href="#which-trip-purposes-are-included-in-the-tool" id="toc-which-trip-purposes-are-included-in-the-tool">Which trip
+purposes are included in the tool?</a></li>
+<li><a href="#what-data-does-the-tool-use" id="toc-what-data-does-the-tool-use">What data does the tool
+use?</a></li>
+<li><a href="#how-are-the-number-of-trips-determined-for-each-trip-purpose" id="toc-how-are-the-number-of-trips-determined-for-each-trip-purpose">How
+are the number of trips determined for each trip purpose?</a></li>
+<li><a href="#how-are-the-scenarios-defined" id="toc-how-are-the-scenarios-defined">How are the scenarios
+defined?</a></li>
+<li><a href="#what-is-the-definition-of-cycle-friendliness" id="toc-what-is-the-definition-of-cycle-friendliness">What is the
+definition of &#x2018;Cycle friendliness&#x2019;?</a></li>
+<li><a href="#how-are-journeys-routed" id="toc-how-are-journeys-routed">How are journeys routed?</a></li>
+</ul>
+</nav>
+<article>
+<section id="what-does-cruse-stand-for" class="level3">
+<h3>What does CRUSE stand for?</h3>
+<p>CRUSE stands for the Cycle Route Uptake and Scenarios Estimation
+tool.</p>
+</section>
+<section id="what-is-the-purpose-of-this-tool" class="level3">
+<h3>What is the purpose of this tool?</h3>
+<p>The CRUSE tool will provide a web application for strategic cycle
+network planning across the Republic of Ireland. This involves detailed
+route-level visualisations of cycle journeys and a range of cycling
+uptake scenarios, using methods based on the <a href="https://www.pct.bike/">Propensity to Cycle Tool</a> for England
+and Wales.</p>
+</section>
+<section id="what-can-the-tool-be-used-for" class="level3">
+<h3>What can the tool be used for?</h3>
+<p>The tool can be used to visualise and assess current patterns of
+cycling and how these could change in future, under scenarios of
+increased cycling uptake in Ireland. Together with local knowledge, this
+may provide supporting evidence to guide decisions such as where to
+install new cycle infrastructure, or where road safety measures may be
+required.</p>
+</section>
+<section id="how-can-i-access-the-tool" class="level3">
+<h3>How can I access the tool?</h3>
+<p>This is a free and open source tool, available for everyone to use.
+<!-- The user-friendly interface can be accessed at xx. --></p>
+</section>
+<section id="which-trip-purposes-are-included-in-the-tool" class="level3">
+<h3>Which trip purposes are included in the tool?</h3>
+<p>So far we have included the following trip purposes:</p>
+<ul>
+<li>commute trips</li>
+<li>travel to primary school</li>
+<li>travel to secondary school</li>
+<li>travel to tertiary education</li>
+<li>social trips</li>
+<li>personal trips</li>
+<li>shopping trips</li>
+</ul>
+<p>We do not include business trips (non-commute work-related
+journeys)</p>
+</section>
+<section id="what-data-does-the-tool-use" class="level3">
+<h3>What data does the tool use?</h3>
+<p>Travel to work and school is based on Central Statistics Office <a href="https://www.cso.ie/en/census/census2016reports/powscar/">POWSCAR
+origin-destination data</a> from the 2016 Census. We use Electoral
+Divisions as the geographical zones between which journeys are
+defined.</p>
+<p>We also include cycle journeys for other purposes including travel to
+public transport, leisure, shopping and touring journeys. Journey
+purpose data derives from from the <a href="https://www.nationaltransport.ie/wp-content/uploads/2020/09/National_Household_Travel_Survey_2017_Report_-_December_2018.pdf">NTA
+National Household Travel Survey</a>. Destination locations are assigned
+using <a href="https://www.geodirectory.ie/">Geodirectory</a>.</p>
+</section>
+<section id="how-are-the-number-of-trips-determined-for-each-trip-purpose" class="level3">
+<h3>How are the number of trips determined for each trip purpose?</h3>
+<p>The POWSCAR data on travel to work and school represents the most
+detailed travel dataset used in the CRUSE Tool, containing accurate data
+on the number of trips to work, primary school, secondary school and
+tertiary education carried out by all modes of transport on a typical
+weekday. These trips from home to work or school are recorded in one
+direction only in the POWSCAR data, and we have followed this in the
+CRUSE Tool. This can be seen as representing morning peak flow. To
+include return journeys as part of daily trip totals, the POWSCAR flows
+can simply be doubled (and the same can be done for non-POWSCAR
+flows).</p>
+<p>For non-POWSCAR trip purposes (including social, personal and
+shopping trips), we use the POWSCAR dataset as a benchmark. According to
+the NHTS 2017 Survey, work, business and education represent a combined
+total of 51% of all trips. Of these, business trips are not included in
+POWSCAR, and are estimated to represent around 5% of total trips (AECOM
+reference). Therefore, we assume that the POWSCAR data should represent
+46% of total trips. We use this figure to calculate the total number of
+daily trips nationwide. The total number of trips for each non-POWSCAR
+trip purpose is calculated as a proportion of this national total. Based
+on this overall total, the number of non-POWSCAR trips originating from
+each Electoral Division is generated according to the population (aged 4
+and above) of the Electoral Division.</p>
+<p>Having obtained the origins for non-POWSCAR trips, we identify
+potential destinations using the Geodirectory dataset, assigning the
+point data to 500 m grid cells. We use a spatial interaction model to
+assign trips to these destinations.</p>
+<p>There is a small difference in the way the trip purpose totals are
+calculated, between the POWSCAR and non-POWSCAR purposes. The POWSCAR
+purposes are represented as the mean daily number of one-way trips taken
+on a typical weekday, while the non-POWSCAR purposes are represented as
+the mean daily number of one-way trips averaged across the entire week,
+since the NHTS survey accounts for trips taken on all days of the
+week.</p>
+<!-- Add table -->
+</section>
+<section id="how-are-the-scenarios-defined" class="level3">
+<h3>How are the scenarios defined?</h3>
+<p>We use a number of scenarios to represent different levels of
+potential cycling uptake. They are based on existing travel data using
+defined origin and destination points. These origins and destinations
+are assumed to remain the same.</p>
+<p>In all scenarios apart from the baseline scenario, modal shares are
+altered to model potential future increases in cycling uptake and/or
+reductions in car driving. Scenarios include:</p>
+<p><em>Baseline:</em></p>
+<p>The baseline scenario uses existing modal shares for all
+journeys.</p>
+<p><em>Near Market:</em></p>
+<p>This scenario will be based on current cycling levels in Dublin. It
+thus gives an achievable level of ambition, showing what could happen if
+cycling uptake reaches Dublin levels (while taking account of journey
+length and hilliness) across the whole country. Training on Dublin data
+should allow cycling to reach around 8-10% mode share for trips in urban
+areas.</p>
+<p><em>Decarbonise:</em></p>
+<p>This scenario is loosely based on the Irish Government&#x2019;s <a href="https://www.gov.ie/en/publication/6223e-climate-action-plan-2021/">Climate
+Action Plan 2021</a>, which contains policies for action to achieve a
+51% reduction in overall greenhouse gas emissions by 2030, on a path
+towards net-zero by 2050. For transport, this includes 500,000 extra
+walking, cycling and public transport journeys per day by 2030. In terms
+of car travel, the target is to &#x201C;Increas[e] the proportion of kilometres
+driven by passenger electric cars to between 40 and 45% by 2030, in
+addition to a reduction of 10% in kilometres driven by the remaining
+internal combustion engine cars.&#x201D; This equates to a 5.5 - 6% reduction
+in total car km driven.</p>
+<p>To model this decrease in car driver km, cycling uptake increases in
+line with the Go Dutch scenario. However, we only model shift from
+driving to cycling. There is no shift from other modes of transport to
+cycling.</p>
+<p><em>Demand Reduction:</em></p>
+<p>This scenario models a 30% reduction in car driver km. To enable this
+major shift, we assume an overall 10% demand reduction for travel across
+all modes. On top of this is a 20% increase in public transport modal
+share, across the origin-destination pairs where some journeys are
+already made by public transport. Added to this is modal shift from car
+driving to cycling as following the ebike cycle uptake scenario.</p>
+<p><em>Go Dutch:</em></p>
+<p>In this scenario cycling reaches levels equivalent to those found in
+the Netherlands, taking account of the effects of route hilliness
+(measured as mean gradient) and route distance. Journeys can shift from
+any other mode to cycling.</p>
+<p><em>Ebike:</em></p>
+<p>The ebike scenario takes Go Dutch cycling uptake, and adds onto this
+the impact of increased ebike usage, which allows for longer cycle
+journeys.</p>
+</section>
+<section id="what-is-the-definition-of-cycle-friendliness" class="level3">
+<h3>What is the definition of &#x2018;Cycle friendliness&#x2019;?</h3>
+<p>Cycle friendliness is a subjective measure representing the quality
+of a route segment (a section of road or path) for cycling. It takes
+into account a <a href="https://www.cyclestreets.net/api/v1/journey/">range of
+factors</a>, using data derived from OpenStreetMap. Factors that
+contribute to the cycle friendliness rating include (as appropriate)
+whether the cycleway is shared with motor vehicles or pedestrians, the
+type of road, presence of cycle infrastructure, speed limit, surface
+quality, cycle signage, any barriers or obstructions, path width and
+route legibility. See <a href="https://www.cyclestreets.net/help/journey/howitworks/">CycleStreets</a>
+for further information; in this link the term &#x2018;quietness&#x2019; is used for
+the same measure that we call &#x2018;cycle friendliness&#x2019;.</p>
+</section>
+<section id="how-are-journeys-routed" class="level3">
+<h3>How are journeys routed?</h3>
+<p>During the routing process, each journey is assigned to the road and
+cycle path network, from its point of origin to its destination. This
+aims to replicate the routes that cyclists might choose to take in real
+life.</p>
+<p>We use three different route types, each developed by <a href="https://www.cyclestreets.net">CycleStreets.net</a>, and labelled
+&#x2018;fastest&#x2019;, &#x2018;quietest&#x2019; and &#x2018;balanced.&#x2019;</p>
+<p><em>Fastest routes:</em></p>
+<p>These are generated based on the fastest possible journey time from
+origin to destination. The calculation of these routes takes into
+account the impact of hills on journey times, but it does not take into
+account the cycle friendliness of the roads. Therefore the routes may
+follow busy main roads.</p>
+<p><em>Quietest routes:</em></p>
+<p>These are generated with the aim of maximising cycle friendliness
+along the chosen route. However, they may still sometimes follow roads
+that are not cycle friendly, if there is no other alternative nearby.
+These are shown as the default in the CRUSE web tool.</p>
+<p><em>Balanced routes:</em></p>
+<p>These routes aim to balance speed and cycle friendliness.</p>
+</section>
+</article>
+</main>
+</body>
+</html>
 
